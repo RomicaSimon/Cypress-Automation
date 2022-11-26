@@ -25,7 +25,7 @@ describe('pom', () => {
         ln.verifyLogin();   
     })    
 
-    // using pom with fixtures
+    // using Pom with fixtures
     it.only('Login Test', () => {
 
         cy.visit('https://opensource-demo.orangehrmlive.com/');
